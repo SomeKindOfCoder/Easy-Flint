@@ -1,0 +1,36 @@
+{
+  "com/lerrific/easyflint/EasyFlint": {
+    "name": "com/lerrific/easyflint/EasyFlint",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "com/lerrific/easyflint/EasyFlint",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "modid": {
+            "value": "easyflint"
+          },
+          "name": {
+            "value": "Easy Flint"
+          },
+          "version": {
+            "value": "1.0.0"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "rightClickGravel(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V"
+      }
+    ]
+  }
+}
