@@ -1,0 +1,10 @@
+[
+{
+  "modid": "easyflint",
+  "name": "Easy Flint",
+  "description": "A simple mod that allows you to right click with an empty hand on a gravel block a few times to get flint.",
+  "version": "1.0.0",
+  "mcversion": "1.12.2"
+  "authorList": ["lerrific"]
+}
+]
